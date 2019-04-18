@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+@import url('https://fonts.googleapis.com/css?family=Exo+2');
+@font-face{
+	font-family: allcrackedout;
+	src:url(../font/AllCrackedOut.ttf);
+}
+
+
+
+
+.num{
+	font-family: 'Aladin', cursive;
+}
+
+#sankalp{
+	top: 0;
+	padding-left: 4vw;
+	width: 40vw;
+	height: 8vw;
+	line-height: 8vw;
+	vertical-align: center;
+	font-family: 'allcrackedout';
+	font-size: 4vw;
+	background: -webkit-linear-gradient(45deg,red, yellow);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+	-webkit-animation-name: glow;
+	-webkit-animation-duration: .2s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+
+
+
+#banner{
+	position: absolute;
+	top:0;
+	left: 0px;
+	background: #00000060;
+	border-bottom-right-radius: 10% 30%;
+	box-shadow: 4px 4px 20px #000;
+	height:20vh;
+}
+#b-img{
+	height:auto;
+	width:8vw;
+}
+#n-img{
+	height:auto;
+	width:8vw;
+	margin-left:2vw;
+	margin-right: 2vw;
+}
+
+#banner2{
+	position: absolute;
+	top:0;
+	right: 0px;
+	background: #00000060;
+	border-bottom-left-radius: 10% 30%;
+	box-shadow: -4px 4px 20px #000;
+
+	height:20vh;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#i-img{
+	height: auto;
+	width: 6vw;
+	margin-left: 3vw;
+	margin-right: 2vw;
+}
+
+.col1{
+	display: inline-block;
+	float: left;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: transparent;
+  color: white;
+}
+
+.visit{
+	display: inline-block;
+	background-color: #00000060;
+	padding-top: .8vw;
+	padding-bottom: .8vw;
+	padding-right: 2vw;
+	padding-left:2vw;
+	margin-left: 1vw;
+	margin-right: 1vw;
+	font-size: 1.5vw; 
+	font-family: 'Exo 2', cursive;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+}
+
+.visit a{
+	color: lightcyan;
+}
+
+.visit:hover{
+	background-color: #000000c0;
+
+}
+
+#copyright{
+	float:right;
+	font-family: 'Exo 2', sans-serif;
+
+}
+
+#copyright a{
+	color:lightcyan;
+}
+
+@media only screen and (max-width: 481px){
+	#sankalp{
+  		line-height: 4vh;
+  		font-size: 5vw;
+  		width: 50vw;
+  	}
+  	#b-img{
+		height:auto;
+		width:12vw;
+	}
+	#n-img{
+		height:auto;
+		width:12vw;
+		margin-left:2vw;
+		margin-right: 2vw;
+	}
+	#i-img{
+		height: auto;
+		width: 10vw;
+		margin-left: 3vw;
+		margin-right: 2vw;
+	}
+  	#banner{
+
+		height:10vh;
+  	}
+  	#banner2{
+  		height:10vh;
+  	}
+  	.visit{
+		font-size: 3vw; 
+		padding-right: 1vw;
+		padding-left:1vw;
+		
+	}
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  
+}

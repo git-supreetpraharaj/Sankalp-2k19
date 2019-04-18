@@ -1,0 +1,55 @@
+@font-face{
+    font-family: allcrackedout;
+    src:url(../font/AllCrackedOut.ttf);
+}
+
+body{
+    font-family:'Open Sans';
+    margin:0px;
+    background:url("../images/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+
+
+.well{
+    margin-top: 25vh;
+    display: block;
+	background-color: #87deffc7;
+	-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+    -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)!important;
+}
+.input-group {
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+    box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.21)!important;
+}
+span.input-group-addon i {
+    color: #009edf;
+    font-size: 17px;
+}
+
+
+#success_message{ display: none;
+	margin-left: 30%;
+	margin-right:30%;
+}
+#fail_message{ display: none;
+    margin-left: 30%;
+    margin-right:30%;
+}
+
+#loading{
+	display: none;
+	background: url(../images/loading.gif);
+	background-size: cover;
+	background-position: center;
+	height:50px;
+	width:50px;
+	margin: 0 auto;
+}

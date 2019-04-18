@@ -1,0 +1,106 @@
+
+
+.play-btn {
+  width: 8vw;
+  height: 8vw;
+  background: radial-gradient(#f82249 50%, rgba(101, 111, 150, 0.15) 52%);
+  border-radius: 50%;
+  display: block;
+  position: relative;
+  top:80vh;
+  left:46vw;
+  z-index: 200px;
+  overflow: hidden;
+  animation:glow2 5s infinite;
+  animation-direction: linear;
+}
+
+@-webkit-keyframes glow2{
+  0% { background: radial-gradient(#f82249 50%, #6578c366 52%); }
+  25%  { background: radial-gradient(#f82249 50%, #65c37566 52%); }
+  50%  { background: radial-gradient(#f82249 50%, #c2c36566 52%); }
+  75%  { background: radial-gradient(#f82249 50%, #c3696566 52%); }
+  100%   { background: radial-gradient(#f82249 50%, #c365c066 52%); }
+}
+
+.play-btn::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-40%) translateY(-50%);
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 1vw solid transparent;
+  border-bottom: 1vw solid transparent;
+  border-left: 1.5vw solid #fff;
+  z-index: 100;
+  transition: all 400ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+.play-btn:before {
+  content: '';
+  position: absolute;
+  width: 10vw;
+  height: 10vw;
+  -webkit-animation-delay: 0s;
+  animation-delay: 0s;
+  -webkit-animation: pulsate-btn 2s;
+  animation: pulsate-btn 2s;
+  -webkit-animation-direction: forwards;
+  animation-direction: forwards;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: steps;
+  animation-timing-function: steps;
+  opacity: 1;
+  border-radius: 50%;
+  border: 2px solid rgba(163, 163, 163, 0.4);
+  top: -15%;
+  left: -15%;
+  background: rgba(198, 16, 0, 0);
+}
+
+.play-btn:hover::after {
+  border-left: 15px solid #f82249;
+  -webkit-transform: scale(20);
+  transform: scale(20);
+}
+
+.play-btn:hover::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translateX(-40%) translateY(-50%);
+  transform: translateX(-40%) translateY(-50%);
+  width: 0;
+  height: 0;
+  border: none;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 15px solid #fff;
+  z-index: 200;
+  -webkit-animation: none;
+  animation: none;
+  border-radius: 0;
+}
+
+
+@media only screen and (max-width: 481px){
+  .play-btn {
+    top:70vh;
+    left:42vw;
+    width: 15vw;
+    height: 15vw;
+  } 
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+  
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  
+}

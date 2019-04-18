@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Aladin');
+
+#container{
+	top:0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+
+}
+
+
+
+.scene{
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+}
+
+
+.layer{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.menu{
+	display: none;
+}
+.menu_items{
+	position:absolute;
+	width:21vw;
+	height:9.5vw;
+	overflow: hidden;
+	border: 0.3vw solid #bbdefb;
+	border-radius: 20px;
+}
+#event-button{
+	position:absolute;
+	left:69vw;
+	top:30vh;
+	transform: skewX(15deg);
+	
+}
+
+.menu:hover{
+	-webkit-animation-name: greenPulse;
+	-webkit-animation-duration: 0.6s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+#event-button:before{
+	content: "";
+	position: absolute;
+	width: 150%;
+	height: 150%;
+	top: -20%;
+	left: -20%;
+	z-index: -1;
+	background: url("https://res.cloudinary.com/creatoraj/image/upload/v1547837502/event.jpg");
+	background-size: cover;
+}
+.menu_text{
+	text-align: center;
+	vertical-align: middle;
+	line-height: 7vw;
+	color:#000;
+	font-family: 'Aladin', cursive;
+	font-size:3vw;
+	text-shadow: -1px 0 5px white, 0 2px 5px white, 1px 0 5px white, 0 -1px 5px white;
+}
+#event-text{
+	transform: skewX(-15deg);
+}
+
+
+#event-button:before{
+	transform: skewX(-15deg);
+}
+
+#reg-button{
+	left:69vw;
+	top:65vh;
+	transform: skewX(-15deg);
+}
+
+#reg-button:before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	top: -20%;
+	left: -10%;
+	z-index: -1;
+	background: url("https://res.cloudinary.com/creatoraj/image/upload/v1547607679/reg.jpg");
+	background-size: cover;
+}
+
+#reg-text{
+	transform: skewX(15deg);
+}
+
+#reg-button:before{
+	transform: skewX(15deg);
+}
+
+
+#gallery-button{
+	left:10vw;
+	top:65vh;
+	transform: skewX(15deg);
+}
+
+#gallery-button:before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	top: -20%;
+	left: -10%;
+	z-index: -1;
+	background: url("https://res.cloudinary.com/creatoraj/image/upload/v1547576140/gallery.jpg");
+	background-size: cover;
+}
+
+#gallery-text{
+	transform: skewX(-15deg);
+}
+
+#gallery-button:before{
+	transform: skewX(-15deg);
+}
+
+
+#about-button{
+	left:10vw;
+	top:30vh;
+	transform: skewX(-15deg);
+}
+
+#about-button:before{
+	content: "";
+	position: absolute;
+	width: 120%;
+	height: 120%;
+	top: -20%;
+	left: -10%;
+	z-index: -1;
+	background: url("https://res.cloudinary.com/creatoraj/image/upload/v1547608304/about.jpg");
+	background-size: cover;
+}
+
+#about-text{
+	transform: skewX(15deg);
+}
+
+#about-button:before{
+	transform: skewX(15deg);
+}
+
+
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333; opacity: 0.75; }
+  50% { background-color: #91bd09; -webkit-box-shadow: 0 0 400px #91bd09; opacity: 1; }
+  to { background-color: #749a02; -webkit-box-shadow: 0 0 9px #333;  opacity: 0.75;}
+}
+@-webkit-keyframes glow {
+  from { -webkit-text-shadow: 0 0 20px #fff; opacity: 0.75; }
+  50% { -webkit-text-shadow: 0 0 30px #fff; opacity: 1; }
+  to { -webkit-text-shadow: 0 0 20px #fff;  opacity: 0.75;}
+}
+
+@keyframes clockwise {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+
+@media only screen and (max-width: 481px){
+  	.menu_items{
+
+		width:25vw;
+		height:15vw;
+	}
+	.menu_text{
+		line-height: 15vw;
+		font-size:4vw;
+	}	
+}
+
+@media only screen and (min-width: 481px) and (max-width: 767px) {
+
+}
+
+@media only screen and (min-width: 767px) and (max-width: 1024px) {
+  
+}
