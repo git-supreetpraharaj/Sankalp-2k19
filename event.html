@@ -1,0 +1,1028 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+
+    <link rel="shortcut icon" href="param.ico" type="image/x-icon">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>SANKALP-2k19::EVENTS</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:300,300i,400,400i,700i" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+      <link rel="stylesheet" type="text/css" href="assets/css/header.css">
+      
+    
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Exo+2');
+    body{    
+         background-image: url(assets/images/bg.jpg);
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+    font-family: 'Roboto Condensed', sans-serif;
+   
+    
+}
+    *{
+  margin: 0;
+  padding: 0;
+
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+ 
+.wrapper1{
+
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 30vh;
+}
+
+.col2s{
+  display: -webkit-box;   
+  display: flex;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  justify-content: center;
+  background: #ffffff82;
+  margin:10px;
+  border: 2px solid #9ecaed;
+    border-radius: 7px;   
+    box-shadow: 0 0 10px #9ecaed; 
+}
+
+
+.col2{
+  width: calc(25% - 2rem);
+  margin: 1rem;
+  cursor: pointer;
+}
+.col3{
+  width: calc(100% - 2rem);
+  margin: 1rem;
+}
+
+.container1{
+      transform-style: preserve-3d;
+      perspective: 1000px;
+
+}
+
+.container2{
+      transform-style: preserve-3d;
+      perspective: 1000px;
+
+}
+.front1,
+.back1{
+  background-size: cover;
+  background-position: center; 
+  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  backface-visibility: hidden;
+  text-align: center;
+  min-height: 280px;
+  height: auto; 
+  box-shadow: 0 0 50px #fff;
+}
+.front2
+{
+  background-size: cover;
+  background-position: center; 
+  transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+  backface-visibility: hidden;
+  text-align: center;
+  min-height: 40rem;
+  height: auto; 
+  -webkit-animation-name: greenPulse;
+  -webkit-animation-duration: 0.8s;
+  -webkit-animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes greenPulse {
+  from { background-color: #fff; -webkit-box-shadow: 0 0 20px #00bbff; opacity: 0.80; }
+  40% { background-color: #00bbff; -webkit-box-shadow: 0 0 35px #fff; opacity: 1; }
+  65% { background-color: #fff; -webkit-box-shadow: 0 0 20px #00bbff; opacity: 0.85; }
+  80% { background-color: #00bbff; -webkit-box-shadow: 0 0 35px #fff; opacity: 1; }
+  to { background-color: #fff; -webkit-box-shadow: 0 0 20px #00bbff;  opacity: 0.80;}
+}
+
+.back1{
+  background: #fff;  
+  background: linear-gradient(45deg,  #fd0d44ad 0%,#1463e29c 100%);
+}
+
+.front1:after{
+  position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    content: '';
+    display: block;
+        
+    backface-visibility: hidden;
+     
+}
+.container1:hover .front1,
+.container1:hover .back1{
+     
+    transition: transform .7s cubic-bezier(0.4, 0.2, 0.2, 1);
+     
+}
+
+.back1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.inner1{
+  
+    transform: translateY(-50%) translateZ(60px) scale(0.94);
+    top: 50%;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding: 2rem;     
+    box-sizing: border-box;
+    outline: 1px solid transparent;     
+    perspective: inherit;
+    z-index: 2;
+}
+
+.back1 .inner1 a{
+  font-size: 1.5rem;
+  color:white;
+
+}
+
+
+
+.container1 .back1{    
+    transform: rotateY(180deg);     
+    transform-style: preserve-3d;
+}
+
+.container1 .front1{
+    transform: rotateY(0deg);
+    transform-style: preserve-3d;
+}
+
+.container1:hover .back1{
+   transform: rotateY(0deg);
+   transform-style: preserve-3d;
+}
+
+.container1:hover .front1{
+      transform: rotateY(-180deg);
+      transform-style: preserve-3d;
+}
+
+.front1 .inner1 p{
+  font-size: 1rem;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.back1 .inner1 p{
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  position: relative;
+  padding: 3%;
+  font-family: 'Satisfy', cursive;
+  font-style: bold;
+  color: black;
+  background-color: #ffffff99;
+}
+.front1 .inner1 p:after{
+  content: '';
+  width: 4rem;
+  height: 2px;
+  position: absolute;
+  background: #fff;
+  display: block;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  bottom: -.75rem;
+}
+
+.front1 .inner1 span{
+  color: fff;   
+  font-family: 'Roboto Condensed', sans-serif;   
+  font-weight: 300;
+}
+
+@media screen and (max-width: 64rem){
+  .col2{
+    width: calc(33.333333% - 2rem);
+  }
+  .front2
+  {
+    min-height: 20rem;
+  }
+}
+
+@media screen and (max-width: 48rem){
+  .col2{
+    width: calc(50% - 2rem);
+  }
+}
+
+@media screen and (max-width: 32rem){
+  .col2{
+    width: 100%;
+    margin: 0 0 2rem 0;
+  }
+}
+
+.titlebox{
+	float:left;
+	padding:0 5px;
+	margin:-5px 0 0 30px;
+	
+  background: #ffffff;
+  border-top: 2px solid #9ecaed;
+  border-bottom: 2px solid #9ecaed;
+  border-radius: 2px;  
+}
+    </style>
+
+</head>
+<body >
+  <script>
+    $(document).ready(function(){ 
+      history.pushState(null,null,'http://sankalp.nist.edu/main.html');
+      window.addEventListener('popstate',function(event){
+        window.location.href("http://sankalp.nist.edu/main.html");
+      })
+      $("#sankalp").click(function(){
+        window.location.href="main.html";
+      });
+      
+    });
+  </script>
+  <div id="container">
+    <div id="banner">
+      
+      <div class="col1">
+        <h1 id="sankalp" style="cursor: pointer;">SANKALP <span class="num">2</span>K<span class="num">19</span></h1>
+      </div>      
+    </div>
+    <div id="banner2">
+      <div class="col1" id="im">
+        <a href="http://www.isteonline.in"><img id="i-img" src="assets/images/logos/iste.png"></a>
+      </div>
+      <div class="col1">
+        <a href="about.html#param"><img id="b-img" src="assets/images/logos/param-blue.png"></a>
+      </div>
+      <div class="col1" id="nm">
+        <a href="http://www.nist.edu/"><img id="n-img" src="assets/images/logos/nist.png"></a>
+      </div>  
+    </div>
+    <div class="wrapper1">
+      
+			<div class="col2s">
+			<legend style="font-size:4vw; font-family: 'Exo 2', Cursive; font-weight: bold"; ><center>EVENTS</center></legend>
+      <div class="col3">
+        <div class="container2">
+          <div class="front2" style="background-image: url(assets/images/events/music.jpeg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          
+        </div>
+      </div>
+			<div class="col2">
+				<div class="container1">
+					<div class="front1" style="background-image: url(assets/images/events/1.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+					 </div>
+					<div class="back1">
+						<div class="inner1">
+              <p>Get ready to become the devil’s advocate by justifying the unjustifiable. CAT club is bringing you an event to help you grab the opportunity to test your wits.</p>
+							<a href="assets/pdfs/CAT/nyayvadi daitya(CAT CLUB).pdf" download>More Details</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="col2">
+				<div class="container1">
+					<div class="front1" style="background-image: url(assets/images/events/2.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+						 
+					</div>
+					<div class="back1">
+						<div class="inner1">
+              <p>Appear prominent and better than others by utilizing your analytical skills. CAT club brings you an event to check whether you are smart enough to beat the bidder.</p>
+							<a href="assets/pdfs/CAT/saam daam dand bhed(CAT CLUB).pdf" download="">More Details</a>
+						</div>
+					</div>
+				</div>
+			</div><div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/3.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+               <p>Are you smart enough to crack the code and get to the next level? Club EXCEL is conducting a code exploration event for all the coding enthusiasts out there. </p>
+               <a href="assets/pdfs/Excel/Overnight Coding and Code Rush_CLubExcel.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/4.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Does your love for coding make you stay up late? Club Excel is putting this challenge up for those who have the real zest for coding.</p>
+              <a href="assets/pdfs/Excel/Overnight Coding and Code Rush_CLubExcel.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/5.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Management Club is organizing an event where all the aspiring young CEOs can show their presentation skills.</p>
+              <a href="assets/pdfs/Management_Club.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/6.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+               <p>The NIST Management Club is organizing an interesting game for those who can prepare the best profit making strategies in the situations of bull and bear markets.</p>
+               <a href="assets/pdfs/Management_Club.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div><div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/7.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>NAC (NIST Astronomy Club) is conducting this event for those who have the knowledge of astronomy. Your knowledge will show you the path, so pull up your socks and gear up to reach your destination.</p>
+              <a href="assets/pdfs/nas.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/8.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>NAC (NIST Astronomy Club) is going to showcase an astronomical gallery. Join us to experience the universe through a cosmic AR/VR show.</p>
+               <a href="assets/pdfs/nas.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/9.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>It is the right opportunity for you to present a working model of the inventions used in astronomy. NAC (NIST Astronomy Club) is excited to see your unique innovations.</p>
+              <a href="assets/pdfs/nas.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/10.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Experience the story of “EL DORADO” through a miniature depiction of the lost city. NSS (National Service Scheme) will set you off on an expedition to witness the city’s birth, development and its unfortunate destruction.</p>
+               <a href="assets/pdfs/NSS.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div><div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/11.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Our Earth has been facing a threat of apocalypse due to depleting natural resources and pollution. Club REC (Renewable Energy Club) aims to come up with a solution that can be applied for the betterment of our planet.</p>
+               <a href="assets/pdfs/REC.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/12.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>REC (Renewable Energy Club) invites innovators with ideas that can be incorporated in our campus to comply with the norms of green building guidelines. Join us to solve a problem that hasn’t been solved.</p>
+               <a href="assets/pdfs/REC.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/13.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>The AD (Art and Drama) club will showcase your creativity by displaying it in their gallery for the people to see and relish the beauty portrayed in it.</p>
+              <a href="assets/pdfs/AD.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/14.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>The Arts and Drama Club is pleased to invite you to the Inter-College Nukkad Natak Competition. Join us to raise awareness about the ongoing social problems of our country.</p>
+               <a href="assets/pdfs/AD.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div><div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/15.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Civeng’s Club is looking for those who can build a unique and prize-worthy rollercoaster to showcase. Loops? Twists? Turns? It’s time to brainstorm the design for your very own rollercoaster structure.</p>
+               <a href="assets/pdfs/asce/Asce_sankalp_event rekhachitra.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/16.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>This event by Civeng’s Club offers prize to innovators who can make the most aesthetically pleasing bridge with just Popsicle sticks, glue and threads.</p>
+              <a href="assets/pdfs/asce/Asce_sankalp_event setubandhan.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/17.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>You can have an upper hand in this event conducted by Cloud Computing Club if you have the knowledge of cloud. Participate now to become the Cloud Master!</p>
+              <a href="assets/pdfs/Cloud Computing\Cloud Arya.pdf" download="">More Details</a> 
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/18.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Cloud Computing Club will give you the platform to pitch your cloud-based ideas by preparing the best marketing strategies for it. Join us now!</p>
+              <a href="assets/pdfs/CC.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/19.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Buckle up your belts and sharpen your wits in this event conducted by Data Science club.</p>
+              <a href="assets/pdfs/DS.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/20.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Utilize your analytical mind and invest your money in the best possible way. This event is conducted by Data Science Club.</p>
+              <a href="assets/pdfs/DS.pdf" download="">More Details</a> 
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/21.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>It’s your chance to hunt down the hotspots to find your treasure. Club Innova is organizing a treasure hunt for all to discover the 5 elements of Param.</p>
+              <a href="assets/pdfs/innova/Kozagara-Villa.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/22.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+               <a href="assets/pdfs/innova/Vyaktitva.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div><div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/23.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>This event by NCS (NIST Counseling Service) will test your speed, focus, versatility and diligence through a series of rounds. Solve your clues and hunt like a scavenger! </p>
+              <a href="assets/pdfs/NCS.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/24.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>It is a fun event that will be conducted by NCS (NIST Counseling Service). It consists of three rounds: “Knight-rider”, “puzzle round” and “relish your taste buds”.</p>
+              <a href="assets/pdfs/NCS.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/25.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>All the shutterbugs out there! This is the opportunity for you to take as many snapshots as you want to your heart’s content. Register now!</p>
+               <a href="assets/pdfs/FotoFolks.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/26.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+             
+          </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Welcome to this workshop that will be organized by Foto Folks (NIST Photography Club) for an educational experience in the field of photography and videography.</p>
+               <a href="assets/pdfs/FotoFolks.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/27.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Imaginative minds who have unique and innovative ideas in the field of electronics can come together to solve real time problems in this event conducted by Electronics Hobby Club of NIST.</p>
+               <a href="assets/pdfs/ehc/EHC Day1.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/28.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>This is an event conducted by Electronics Hobby Club in which you have to design the circuit on-spot. </p>
+               <a href="assets/pdfs/ehc/EHC Day2.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/29.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>This is a Hardware modeling event conducted by Electronics Hobby Club.</p>
+               <a href="assets/pdfs/EHC.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/30.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>This event that will be organized by Club Eureka will take you through a series of interesting and fun rounds such as clicking selfies, solving puzzles and finally searching for the clues.</p>
+               <a href="assets/pdfs/eureka/vachyatey.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/31.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>It is a fun event that will be conducted by Club Eureka. Join us to assess your knowledge of English words.</p>
+               <a href="assets/pdfs/eureka/prarambh.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/32.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>It is time to utilize and showcase your Photoshop skills in this event conducted by Club Multimedia.</p>
+               <a href="assets/pdfs/Multimedia.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/33.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>This time searching for the treasure will not be a physical activity. Club Multimedia is going to give you the opportunity to search for your treasure online.</p>
+               <a href="assets/pdfs/Multimedia.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/34.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p style="font-size:1.6rem;">Dance is not only the body moving to beats but the mind and soul too get in sync with the rhythm of life. It is an inter-college dance competition conducted by NIST Dance Club which provides the students with a platform to gain unique insights of certain, critical and collaboration thinking.</p>
+               <a href="assets/pdfs/NDG.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/35.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Dance is the hidden language of the soul of the body. This dance battle conducted by NIST Dance Club is inviting all the dance lovers to show their moves and grooves. This time it’s bigger and better!</p>
+               <a href="assets/pdfs/NDG.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/36.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>This will be a fun event by NIST Robotics Club in which robots will show their line-following skills.</p>
+               <a href="assets/pdfs/NRC/REKH-DARSHI (LINE FOLLOWER).pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/37.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Come and enjoy the race between the robots by NIST Robotics Club.</p>
+               <a href="assets/pdfs/NRC/GATI (ROBO RACE).pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/38.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>War between humans is common but have you ever envisioned the scenario of war between robots? NIST Robotics Club will give you this opportunity, so come and experience!</p>
+               <a href="assets/pdfs/NRC/PRALAY (ROBO WAR).pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/39.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Are you skilled enough to put your knowledge through the course of restrictions in this amazing word charade game by Club Quizzards?</p>
+               <a href="assets/pdfs/Quizzards/Kshiptidaksh.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/40.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Here is the chance to test how aware you are on current affairs. Club Quizzards is organizing a Quiz competition to test your wits.</p>
+               <a href="assets/pdfs/Quizzards/sukshama.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/41.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>The competition that will be conducted by SAE Club requires participants to design and fabricate their own boats and perform a set of maneuvering in the provided arena.</p>
+               <a href="assets/pdfs/SAE/Ambu Yukti AQUATRIX.pdf" download="">More Details</a>
+             </br>
+               <a href="https://youtu.be/rcHGzbDZZYY">Watch Now</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/42.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>The competition that will be conducted by SAE Club requires participants to assemble an already dismantled bicycle within the shortest time possible.</p>
+               <a href="assets/pdfs/SAE/Ashwa Damayati TAME THE MUSTANG.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/43.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/44.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Co-ordinators:<br> Bijay Raj Singh<br><a href="tel:+918114823128" style="color:black;">+91 81148 23128</a><br>Aditya Mishra<br><a href="tel:+918984339529" style="color:black;">+91 89843 39529</a></p>
+              <a href="assets/pdfs/csgo.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/45.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Co-ordinators:<br> Bijay Raj Singh<br><a href="tel:+918114823128" style="color:black;">+91 81148 23128</a><br>Aditya Mishra<br><a href="tel:+918984339529" style="color:black;">+91 89843 39529</a></p>
+              <a href="assets/pdfs/FIFA 19.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/46.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Co-ordinators:<br> Bijay Raj Singh<br><a href="tel:+918114823128" style="color:black;">+91 81148 23128</a><br>Aditya Mishra<br><a href="tel:+918984339529" style="color:black;">+91 89843 39529</a></p>
+              <a href="assets/pdfs/NFS.pdf" download="">More Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/47.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+             <p>Co-ordinators:<br> Bijay Raj Singh<br><a href="tel:+918114823128" style="color:black;">+91 81148 23128</a><br>Aditya Mishra<br><a href="tel:+918984339529" style="color:black;">+91 89843 39529</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/48.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Co-ordinators:<br> Nishant Kumar Singh<br><a href="tel:+919583723366" style="color:black;">+91 95837 23366</a><br>Smrutirupa Mishra<br><a href="tel:+918249173232" style="color:black;">+91 82491 73232</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/49.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/50.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/51.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/52.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/53.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Co-ordinators:<br> Nishant Kumar Singh<br><a href="tel:+919583723366" style="color:black;">+91 95837 23366</a><br>Smrutirupa Mishra<br><a href="tel:+918249173232" style="color:black;">+91 82491 73232</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/54.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/55.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+              <p>Co-ordinators:<br> Nishant Kumar Singh<br><a href="tel:+919583723366" style="color:black;">+91 95837 23366</a><br>Smrutirupa Mishra<br><a href="tel:+918249173232" style="color:black;">+91 82491 73232</a></p>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col2">
+        <div class="container1">
+          <div class="front1" style="background-image: url(assets/images/events/56.jpg); background-repeat: no-repeat; background-size: 100% 100%;">
+           </div>
+          <div class="back1">
+            <div class="inner1">
+            </div>
+          </div>
+        </div>
+      </div>
+		</div>
+		</div>
+
+</body>
+</html>
