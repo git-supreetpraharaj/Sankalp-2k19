@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="shortcut icon" href="param.ico" type="image/x-icon">
+	<title>SANKALP-2k19::REGISTRATION</title>
+	<meta charset="utf-8">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/js/bootstrapValidator.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.bootstrapvalidator/0.5.3/css/bootstrapValidator.min.css">
+	<link rel="stylesheet" type="text/css" href="assets\css\reg.css">
+	<link rel="stylesheet" type="text/css" href="assets\css\header.css">
+	
+	<link href="https://fonts.googleapis.com/css?family=Marck+Script" rel="stylesheet">
+	<script src="https://smtpjs.com/v3/smtp.js"></script>
+	<script src="assets/js/reg.js"></script>
+</head>
+<body>
+	<div class="container" id="container" >
+	<div id="banner">
+			
+			<div class="col1">
+				<h1 id="sankalp" style="cursor: pointer;">SANKALP <span class="num">2</span>K<span class="num">19</span></h1>
+			</div>			
+		</div>
+		<div id="banner2">
+			<div class="col1" id="im">
+				<a href="http://www.isteonline.in"><img id="i-img" src="assets/images/logos/iste.png"></a>
+			</div>
+			<div class="col1">
+				<a href="about.html#param"><img id="b-img" src="assets/images/logos/param-blue.png"></a>
+			</div>
+			<div class="col1" id="nm">
+				<a href="http://www.nist.edu/"><img id="n-img" src="assets/images/logos/nist.png"></a>
+			</div>
+		</div>
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+    	
+		<fieldset>
+		<legend style="font-family: 'Marck Script', cursive;"><center><h1><b>Excited! Come along </b></h1><h4 style="font-family: Helvetica;font-weight: bold;"><span style="color: red">*Note:</span> Registration for students from other colleges only</h4></center></legend><br>
+
+
+		<div class="form-group">
+		  <label class="col-md-4 control-label">Name</label>  
+		  <div class="col-md-4 inputGroupContainer">
+		  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+		  <input id="name" name="name" placeholder="First Name" class="form-control"  type="text">
+		    </div>
+		  </div>
+		</div>	  
+		<!-- Text input-->
+
+		<div class="form-group">
+		  <label class="col-md-4 control-label">Batch</label>  
+		  <div class="col-md-4 selectContainer">
+		    <div class="input-group">
+		    <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+		    <select id="batch" name="batch" class="form-control selectpicker">
+		      <option value="">Select your Batch</option>
+		      <option>2013</option>
+		      <option>2014</option>
+		      <option>2015</option>
+		      <option>2016</option>
+		      <option>2017</option>
+		      <option>2018</option>
+		    </select>
+		  </div>
+		</div>
+		</div>
+
+		<!-- Text input-->
+		<div class="form-group">
+		  <label class="col-md-4 control-label">E-Mail</label>  
+		    <div class="col-md-4 inputGroupContainer">
+		    <div class="input-group">
+		        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+		  	<input id="email" name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+		    </div>
+		  </div>
+		</div>
+
+
+		<!-- Text input-->
+		       
+		<div class="form-group">
+		  <label class="col-md-4 control-label">Contact No.</label>  
+		    <div class="col-md-4 inputGroupContainer">
+		    <div class="input-group">
+		        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+		  <input id="contact" name="contact_no" placeholder="Contact Number" class="form-control" type="text">
+		    </div>
+		  </div>
+		</div>
+
+		<div class="form-group">
+		  <label class="col-md-4 control-label">College Name</label>  
+		  <div class="col-md-4 inputGroupContainer">
+		  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-home"></i></span>
+		  <input id="college_name"  name="college_name" placeholder="College Name" class="form-control"  type="text">
+		    </div>
+		  </div>
+		</div>
+
+		<div class="form-group">
+		  <label class="col-md-4 control-label">College City</label>  
+		  <div class="col-md-4 inputGroupContainer">
+		  <div class="input-group">
+		  <span class="input-group-addon"><i class="glyphicon glyphicon-map-marker"></i></span>
+		  <input id="college_city" name="college_city" placeholder="College City" class="form-control"  type="text">
+		    </div>
+		  </div>
+		</div>	  
+		
+		<div class="form-check">
+			<label class="col-md-4 control-label">Accomodation</label>
+			
+			<label>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<input id="accomodation" type="checkbox"  name="accomodation">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspI want accomodation facility</label>
+			
+		</div>
+		<div id="loading"></div>
+		<div class="alert alert-danger" role="alert" id="fail_message">Email ID already exist!</div>
+		<div class="alert alert-success" role="alert" id="success_message"><i class="glyphicon glyphicon-thumbs-up"></i> Thank you! You are registered for Sankalp 2k19</div>
+
+		<div class="form-group">
+		  <label class="col-md-4 control-label"></label>
+		  <div class="col-md-4"><br>
+		    <button type="submit" class="btn btn-primary col-md-4" style="margin-left: 30%;" >SUBMIT <span class="glyphicon glyphicon-send"></span></button>
+		  </div>
+		</div>
+
+		</fieldset>
+	
+		</form>
+		</div>
+	</div><!-- /.container -->
+
+</body>
+</html>
